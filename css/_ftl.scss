@@ -1,0 +1,39 @@
+// FTL Theme
+
+$ftl-blue: #0cf;
+$ftl-dark: #1c2226;
+$ftl-gray: #cacfd0;
+$ftl-light-gray: #dadfe0;
+
+// body,
+.theme-ftl {
+  color: $ftl-dark;
+  background-color: #fff;
+
+  a {
+    color: $ftl-blue;
+    text-decoration: none;
+    &:hover {
+      color: darken($ftl-blue, 10%);
+    }
+  }
+
+  .reverse {
+    color: $ftl-light-gray;
+    background-color: $ftl-dark;
+  }
+
+  .blue { color: $ftl-blue; }
+  .dark { color: $ftl-dark; }
+  .gray { color: $ftl-gray; }
+  .light-gray { color: $ftl-light-gray; }
+  .white { color: #fff; }
+
+  .bg-blue { background-color: $ftl-blue; }
+  .bg-dark { background-color: $ftl-dark; }
+  .bg-gray { background-color: $ftl-gray; }
+  .bg-light-gray { background-color: $ftl-light-gray; }
+  .bg-white { background-color: #fff; }
+
+}
+

@@ -1,0 +1,42 @@
+// Ooze Theme
+
+$ooze-green: #77ff00;
+$ooze-dark-green: #508f00;
+$ooze-dark: #081800;
+$ooze-gray: #808f70;
+$ooze-light-gray: #eef8e0;
+
+// body,
+.theme-ooze {
+  color: $ooze-dark;
+  background-color: #fff;
+
+  a {
+    color: $ooze-dark-green;
+    text-decoration: none;
+    &:hover {
+      color: darken($ooze-dark-green, 10%);
+    }
+  }
+
+  .reverse {
+    color: $ooze-light-gray;
+    background-color: $ooze-dark;
+  }
+
+  .green { color: $ooze-green; }
+  .dark-green { color: $ooze-dark-green; }
+  .dark { color: $ooze-dark; }
+  .gray { color: $ooze-gray; }
+  .light-gray { color: $ooze-light-gray; }
+  .white { color: #fff; }
+
+  .bg-green { background-color: $ooze-green; }
+  .bg-dark-green { background-color: $ooze-dark-green; }
+  .bg-dark { background-color: $ooze-dark; }
+  .bg-gray { background-color: $ooze-gray; }
+  .bg-light-gray { background-color: $ooze-light-gray; }
+  .bg-white { background-color: #fff; }
+
+}
+
